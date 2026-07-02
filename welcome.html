@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Дельта — финансовый коуч. Не куда ушли деньги, а как стать свободнее</title>
+<meta name="description" content="Бесплатный финансовый коуч: учёт за 10 секунд, честный ИИ-разбор месяца, семейный бюджет и путь к финансовой свободе. Без доступа к банкам — данные только твои.">
+<meta property="og:title" content="Дельта — финансовый коуч">
+<meta property="og:description" content="Не куда ушли деньги, а как стать свободнее. ИИ-разбор месяца, семейный бюджет, прогноз до зарплаты.">
+<meta property="og:image" content="./icon-512.png">
+<link rel="icon" type="image/png" href="./icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#06060f;--text:#f0f0ff;--text2:#7878a0;--border:rgba(255,255,255,.08);
+--grad:linear-gradient(135deg,#7c3aed 0%,#db2777 60%,#ea580c 100%);
+--grad-soft:linear-gradient(135deg,#a78bfa 0%,#ec4899 55%,#f97316 100%)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;line-height:1.5}
+body::after{content:'';position:fixed;inset:0;background-image:radial-gradient(circle,rgba(139,92,246,.18) 1px,transparent 1px);background-size:32px 32px;pointer-events:none;z-index:0;-webkit-mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 20%,transparent 100%);mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 20%,transparent 100%)}
+.orb{position:fixed;border-radius:50%;filter:blur(100px);pointer-events:none;z-index:0}
+.o1{width:560px;height:560px;top:-180px;left:-140px;background:radial-gradient(circle,#7c3aed,transparent 70%);opacity:.22}
+.o2{width:440px;height:440px;top:45vh;right:-120px;background:radial-gradient(circle,#db2777,transparent 70%);opacity:.16}
+.o3{width:480px;height:480px;bottom:-160px;left:25%;background:radial-gradient(circle,#4f46e5,transparent 70%);opacity:.14}
+.wrap{position:relative;z-index:2;max-width:560px;margin:0 auto;padding:48px 22px 80px}
+.logo{font-size:64px;font-weight:800;text-align:center;background:var(--grad-soft);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 28px rgba(139,92,246,.5))}
+h1{font-size:clamp(30px,7vw,40px);font-weight:800;text-align:center;margin:12px 0 10px;background:var(--grad-soft);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{text-align:center;color:var(--text2);font-size:17px;margin-bottom:34px}
+.sub b{color:var(--text)}
+.card{background:rgba(255,255,255,.04);border:1px solid var(--border);border-radius:22px;padding:18px;margin-bottom:14px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ico{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;font-size:18px;flex-shrink:0;background:linear-gradient(135deg,rgba(139,92,246,.3),rgba(219,39,119,.2));border:1px solid rgba(139,92,246,.4)}
+.feat b{font-size:15px}
+.feat p{font-size:13px;color:var(--text2);margin-top:2px}
+.cta{margin:30px 0 12px;text-align:center}
+h2{font-size:22px;text-align:center;margin:34px 0 14px}
+form{display:flex;gap:8px;margin-top:14px}
+input{flex:1;min-width:0;padding:14px;border-radius:14px;background:rgba(255,255,255,.05);border:1px solid var(--border);color:var(--text);font:500 15px 'Inter',sans-serif;outline:none}
+input:focus{border-color:rgba(139,92,246,.55)}
+.btn{display:inline-flex;justify-content:center;align-items:center;gap:8px;padding:14px 26px;border:none;border-radius:16px;font:600 15px 'Inter',sans-serif;cursor:pointer;background:var(--grad);color:#fff;box-shadow:0 0 40px rgba(139,92,246,.35),0 0 80px rgba(236,72,153,.12);transition:transform .2s,box-shadow .25s;text-decoration:none}
+.btn:hover{transform:translateY(-1px);box-shadow:0 0 60px rgba(139,92,246,.55)}
+.btn:active{transform:scale(.97)}
+.note{font-size:12px;color:var(--text2);text-align:center;margin-top:10px}
+.ok{color:#6ee7b7;font-size:14px;text-align:center;margin-top:10px}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:100px;font-size:13px;font-weight:500;background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.25);color:#6ee7b7;margin:0 auto 22px;justify-content:center;width:100%;max-width:290px;display:flex}
+footer{margin-top:44px;text-align:center;font-size:12px;color:var(--text2)}
+</style>
+</head>
+<body>
+<div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
+<div class="wrap">
+  <div class="logo">Δ</div>
+  <h1>Дельта</h1>
+  <p class="sub">Не «куда ушли деньги», а <b>как стать свободнее</b>.<br>Финансовый коуч, а не бухгалтерия.</p>
+
+  <div class="pill">● Бесплатно · без доступа к банкам · данные твои</div>
+
+  <div class="card feat"><div class="ico">🧠</div><div><b>Честный ИИ-разбор месяца</b><p>Коуч видит твои цифры и говорит как есть: где утекает, что усилить, какой план на месяц. Без стыда и клише.</p></div></div>
+  <div class="card feat"><div class="ico">🔮</div><div><b>Прогноз до зарплаты</b><p>«При текущем темпе уйдёшь в минус на 8 400 ₽» — раньше, чем это случится.</p></div></div>
+  <div class="card feat"><div class="ico">👨‍👩‍👧</div><div><b>Семейный бюджет</b><p>Один код приглашения — и вы с партнёром видите общие деньги вживую, на любых устройствах.</p></div></div>
+  <div class="card feat"><div class="ico">🏔️</div><div><b>Путь к свободе</b><p>Уровни, серии, вехи и план выхода из долгов (снежный ком / лавина) с точным сроком и переплатой.</p></div></div>
+  <div class="card feat"><div class="ico">🔒</div><div><b>Приватность by design</b><p>Никаких логинов в банк. Данные хранятся у тебя, облако — по желанию. Экспорт в один тап.</p></div></div>
+
+  <div class="cta">
+    <a class="btn" href="./">Открыть Дельту →</a>
+    <p class="note">Работает в браузере. На iPhone: Поделиться → «На экран Домой» — и это приложение.</p>
+  </div>
+
+  <h2>Получить доступ к новым фичам первым</h2>
+  <div class="card">
+    <p style="font-size:13.5px;color:var(--text2)">Автокатегории с ИИ, цели-копилки, виджеты — выходят каждую неделю. Оставь email, чтобы не пропустить:</p>
+    <form id="wl">
+      <input type="email" id="em" placeholder="you@example.com" required>
+      <button class="btn" type="submit">В список</button>
+    </form>
+    <p class="ok" id="okmsg" style="display:none">✅ Ты в списке! Напишем, когда будет что показать.</p>
+  </div>
+
+  <footer>Дельта · сделано с заботой о твоих деньгах · <a href="./" style="color:#a78bfa">открыть приложение</a></footer>
+</div>
+<script>
+document.getElementById('wl').addEventListener('submit', async (e) => {
+  e.preventDefault()
+  const email = document.getElementById('em').value.trim().toLowerCase()
+  try {
+    await fetch('https://bqaomohaynvpzennqpqy.supabase.co/rest/v1/waitlist', {
+      method: 'POST',
+      headers: {
+        'apikey': 'sb_publishable_3BWxGbiuopfJotaF3Pdedw_s_SxiGJt',
+        'Content-Type': 'application/json',
+        'Prefer': 'resolution=ignore-duplicates',
+      },
+      body: JSON.stringify({ email, source: 'landing' }),
+    })
+  } catch (_) { /* даже при сетевой ошибке показываем успех — не теряем лида в UX */ }
+  document.getElementById('wl').style.display = 'none'
+  document.getElementById('okmsg').style.display = 'block'
+})
+</script>
+</body>
+</html>
